@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BaseVC.swift
 //  BuyoView
 //
 //  Created by 刘志康 on 2020/6/1.
@@ -8,11 +8,9 @@
 
 import UIKit
 
-class ViewController: BaseVC, BuyoIconProtocol {
+class BaseVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.updateleftbuyoView(self)
     }
 }
-

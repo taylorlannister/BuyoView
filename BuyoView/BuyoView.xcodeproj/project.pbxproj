@@ -15,6 +15,9 @@
 		BDF12BE42484AA6600C999B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF12BE22484AA6600C999B0 /* LaunchScreen.storyboard */; };
 		BDF12BEF2484AA6600C999B0 /* BuyoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF12BEE2484AA6600C999B0 /* BuyoViewTests.swift */; };
 		BDF12BFA2484AA6600C999B0 /* BuyoViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF12BF92484AA6600C999B0 /* BuyoViewUITests.swift */; };
+		BDF12C092484CECC00C999B0 /* BuyoIconProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF12C072484CECC00C999B0 /* BuyoIconProtocol.swift */; };
+		BDF12C0A2484CECC00C999B0 /* HomepageLeftBuoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF12C082484CECC00C999B0 /* HomepageLeftBuoyView.swift */; };
+		BDF12C0C2484CFE900C999B0 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF12C0B2484CFE900C999B0 /* BaseVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BDF12BF52484AA6600C999B0 /* BuyoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF12BF92484AA6600C999B0 /* BuyoViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyoViewUITests.swift; sourceTree = "<group>"; };
 		BDF12BFB2484AA6600C999B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF12C072484CECC00C999B0 /* BuyoIconProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyoIconProtocol.swift; sourceTree = "<group>"; };
+		BDF12C082484CECC00C999B0 /* HomepageLeftBuoyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageLeftBuoyView.swift; sourceTree = "<group>"; };
+		BDF12C0B2484CFE900C999B0 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				BDF12BD72484AA6200C999B0 /* AppDelegate.swift */,
 				BDF12BD92484AA6200C999B0 /* SceneDelegate.swift */,
 				BDF12BDB2484AA6200C999B0 /* ViewController.swift */,
+				BDF12C072484CECC00C999B0 /* BuyoIconProtocol.swift */,
+				BDF12C082484CECC00C999B0 /* HomepageLeftBuoyView.swift */,
+				BDF12C0B2484CFE900C999B0 /* BaseVC.swift */,
 				BDF12BDD2484AA6200C999B0 /* Main.storyboard */,
 				BDF12BE02484AA6600C999B0 /* Assets.xcassets */,
 				BDF12BE22484AA6600C999B0 /* LaunchScreen.storyboard */,
@@ -260,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF12BDC2484AA6200C999B0 /* ViewController.swift in Sources */,
+				BDF12C0C2484CFE900C999B0 /* BaseVC.swift in Sources */,
 				BDF12BD82484AA6200C999B0 /* AppDelegate.swift in Sources */,
+				BDF12C0A2484CECC00C999B0 /* HomepageLeftBuoyView.swift in Sources */,
 				BDF12BDA2484AA6200C999B0 /* SceneDelegate.swift in Sources */,
+				BDF12C092484CECC00C999B0 /* BuyoIconProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
